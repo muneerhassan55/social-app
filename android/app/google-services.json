@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "529218306025",
+    "project_id": "social-media-live-streaming",
+    "storage_bucket": "social-media-live-streaming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529218306025:android:a1e7ef0d9f30cb6fc7d578",
+        "android_client_info": {
+          "package_name": "com.example.sk_live_vice_group_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEm0iqbl-5SeDRZPlj-Vy2JVX1qFrGWcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529218306025:android:312f5396efb8e36cc7d578",
+        "android_client_info": {
+          "package_name": "com.social_media_live_straming.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEm0iqbl-5SeDRZPlj-Vy2JVX1qFrGWcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
