@@ -1,3 +1,4 @@
+import 'package:sk_live_vice_group_chat/zego_config.dart';
 import 'package:flutter/material.dart';
 import 'package:zego_uikit_prebuilt_live_streaming/zego_uikit_prebuilt_live_streaming.dart';
 
@@ -77,9 +78,8 @@ class _ZegoLiveStremState extends State<ZegoLiveStrem> {
   @override
   Widget build(BuildContext context) {
     return ZegoUIKitPrebuiltLiveStreaming(
-        appID: 1279593144,
-        appSign:
-            'b69e38f37724d6bad7c031612419b8881edabc206a445d29a17e626f0426b547',
+        appID: zegoAppId,
+        appSign: zegoAppSign,
         userID: widget.uid,
         userName: widget.username,
         liveID: widget.liveId,

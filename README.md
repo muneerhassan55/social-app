@@ -28,8 +28,11 @@ lib/
 
 1. Install Flutter (3.x) and run `flutter pub get`.
 2. Run `flutterfire configure` to connect your own Firebase project.
-3. Create a ZEGOCLOUD project, enable ZIM, and put your own App ID and App Sign in `lib/main.dart` and the files in `lib/zim/`.
-4. Run `flutter run`.
+3. Create a ZEGOCLOUD project, enable ZIM, and run with its App ID and App Sign (read at build time from `lib/zego_config.dart`, nothing is stored in the repo):
+
+```bash
+flutter run --dart-define=ZEGO_APP_ID=123456789 --dart-define=ZEGO_APP_SIGN=your_app_sign
+```
 
 ## License
 
