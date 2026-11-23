@@ -1,3 +1,4 @@
+import 'package:sk_live_vice_group_chat/zego_config.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -12,9 +13,8 @@ import 'package:zego_zimkit/zego_zimkit.dart';
 void main() async {
 // ...
   await ZIMKit().init(
-      appID: 1279593144,
-      appSign:
-          'b69e38f37724d6bad7c031612419b8881edabc206a445d29a17e626f0426b547');
+      appID: zegoAppId,
+      appSign: zegoAppSign);
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
